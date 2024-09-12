@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage and Cultural Places</title>
+    <link rel="stylesheet" href="map.css">
+    <!-- Leaflet CSS for maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Explore Heritage and Cultural Places</h1>
+        <div class="search-box">
+            <input type="text" id="location" placeholder="Enter location">
+            <button onclick="searchLocation()">Search</button>
+        </div>
+        <div id="map" class="map-container"></div>
+    </div>
+
+    <!-- Leaflet JS for maps -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Custom JS for functionality -->
+    <script src="map.js"></script>
+</body>
+</html>
