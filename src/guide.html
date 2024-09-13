@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Guide - Route</title>
+    <link rel="stylesheet" href="guide.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+</head>
+<body>
+    <div class="tour-info">
+        <h1>Tour Guide</h1>
+        <p>Travel Agency Name: XYZ Tours</p>
+        <p>Contact: 9876543210</p>
+    </div>
+
+    <!-- Input form for Start and Destination -->
+    <div class="route-form">
+        <label for="start">Start Location:</label>
+        <input type="text" id="start" placeholder="Enter Start Location">
+        
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" placeholder="Enter Destination">
+        
+        <button id="findRoute">Show Route</button>
+    </div>
+
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <script src="guide.js"></script>
+</body>
+</html>

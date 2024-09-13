@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-BaZ2BeRWEN5o8pDjqfnJy2XJGp2rNJC6Q2L1knpGGoiqnjWEG8y7IjU0ZDp5ATFw" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-iKc9FHFtJpkwyo2huULR2je/qvcMGXzysFWWRAod8b84hQhERBheUyL9T15izRk3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>weather website</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="card">
+        <h1>WEATHER</h1>
+        <br>
+        <br>
+        <div class="search">
+            <input type="text" placeholder="Enter Your City Name" spellcheck="false">
+            <button> <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <i id="icon" class="fas fa-sun weather-icon"></i> 
+            <h1 class="temp">22c</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="fas fa-tint humidity-icon"></i>&nbsp &nbsp &nbsp
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fas fa-wind"></i>&nbsp &nbsp &nbsp 
+                    <div>
+                        <p class="wind">15km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="weather.js">
+</script>    
+</body>
+</html>
