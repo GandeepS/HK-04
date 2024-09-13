@@ -67,7 +67,7 @@ document.getElementById('findRoute').addEventListener('click', function() {
 
             // Add markers for resorts with custom icons
             var resortIcon = L.icon({
-                iconUrl: 'https://example.com/resort-icon.png',  // Replace with your custom icon URL
+                iconUrl: 'https://imgs.search.brave.com/T0XncGjADOjVclynQB94yuMuV664W85qg-GbNqaKZ00/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuZHJ5aWNvbnMu/Y29tL3VwbG9hZHMv/aWNvbi9wcmV2aWV3/LzgyMDEvc21hbGxf/MXhfYjA4MDE3OWIt/NjFkNC00NmE4LWE2/NmUtOTE3ZGU5MWRm/YTEwLnBuZw',  // Replace with your custom icon URL
                 iconSize: [32, 32],  // Size of the icon
                 iconAnchor: [16, 32],  // Anchor point of the icon (center of the icon)
                 popupAnchor: [0, -32]  // Popup anchor point
